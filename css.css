@@ -1,0 +1,212 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+	margin-top: -2.5cm;
+}
+
+header {
+	float: center;
+	width: 64%;
+	height: 3cm;
+	margin-left: 7.7cm;
+	box-shadow: 0 12px 8px -9px #000066;
+	}
+
+header h2 {
+	letter-spacing: 0.1cm;
+	font-family: Castellar;
+	font-size: 3cm;
+	color: #999;
+	margin-left: 2cm;
+	margin-bottom: 6cm;
+}
+
+section p {
+	text-align: center;
+}
+
+section i {
+	letter-spacing: 0.1cm;
+	color: #999;
+}
+
+article p {
+	text-align: left;
+}
+
+section {
+	overflow: hidden;
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+section article {
+	margin-right: 4cm;
+	float: right;
+	width: 65%;
+	padding: 12px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 2px 1px #9c9c9c;
+	margin-top: 1cm;
+	color: #999;
+	background: linear-gradient(to bottom right, #000066, #000033);
+	}
+
+section article i {
+	letter-spacing: 0;
+	}
+	
+section article h1 {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 30pt;
+	margin: 0cm;
+}
+
+section article h2 {
+	font-family: helvetica;
+	font-size: 15pt;
+	border-bottom: 1px dotted #1f3d4c;
+}
+
+section p {
+	font-family: helvetica;
+	font-size: 1em;
+	
+}
+
+
+footer {
+	padding: 5px 0 2px 0;
+	text-align: center;
+	background: linear-gradient(to bottom right, #000066, #000033);
+	box-shadow: 0 12px 8px -9px #1f3d4c;
+	color: #999;
+	margin-top: 2cm;
+}
+
+footer {
+	font-family: helvetica;
+	font-size: 0.85em;
+	letter-spacing: 0.8em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    background-color: #666699;
+	border: 1px solid #555;
+	margin-top: 5cm;
+	
+ /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #444;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: none;
+    color: black;
+}
+
+li {
+	margin-top: 0.5cm;
+    width: 100%;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#menu{
+    height: 5.8cm;
+    margin-top: 1.45cm;
+    padding: 0px 0 0 0;
+    list-style-type: none;
+    background-image: linear-gradient(#000066, #000033);
+    border-radius: 0px 20px 20px 0px; 
+    box-shadow: 0 2px 1px #9c9c9c;
+}
+
+#menu li{
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#menu a{
+    float: left;
+    height: 25px;
+    padding: 0 25px;
+    color: #999;
+    text-transform: uppercase;
+    font-variant: bold;
+    font-size: 0.39cm;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 4.75cm;
+    z-index: 1;
+    background-color: #444;
+    background-image: linear-gradient(#000066, #000033);
+    border-radius: 5px;
+}
+
+#menu ul li{
+	margin: 0;
+    display: block;
+}
+
+#menu ul li:last-child {
+	
+}
+
+#menu li:hover > a {
+    color: #fafafa;
+}
+
+#menu li:hover > ul {
+    display:block;
+	
+}
+
+#kontakt {
+	border-radius: 0px 20px 20px 0px;
+	float: left;
+	width: 11%;
+	height: 4cm;
+	overflow: hidden;
+	margin: 0;
+	margin-top: 2cm;
+}
+
+#kontakt h1 {
+	float: left;
+	font-size: 0.6cm;
+} 	
+
+#kontakt p {
+	font-size: 0.45cm;
+}
